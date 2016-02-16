@@ -1,1 +1,3 @@
-# I3wm-Stuff
+# I3wm Stuff
+
+Tweaks and Beauty
