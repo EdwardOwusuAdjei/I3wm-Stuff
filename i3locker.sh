@@ -1,6 +1,6 @@
 #!/bin/bash
 
-name=$(cat "/home/edward/.fehbg" |tail -n 1)
-namer=$(echo $name |sed "s/.*'\(.*\)'.*/\1/")
-i3lock -i "$namer"
+PNGpath=$(cat "/home/edward/.fehbg" |tail -n 1)
+path=$(echo $PNGpath |sed "s/.*'\(.*\)'.*/\1/")
+i3lock -i "$path"
 
